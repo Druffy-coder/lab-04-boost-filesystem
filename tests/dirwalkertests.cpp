@@ -1,10 +1,10 @@
-// Copyright 2021 Your Name <your_email>
+// Copyright 2021 Semenihin Dmitriy <SemenihinDmit@yandex.ru>
 
 #include <stdexcept>
 
 #include <gtest/gtest.h>
 
-#include <example.hpp>
+#include <dirwalker.hpp>
 
 TEST(Example, EmptyTest) {
     EXPECT_THROW(example(), std::runtime_error);
